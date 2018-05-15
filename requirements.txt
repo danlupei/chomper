@@ -1,0 +1,48 @@
+################################################################################
+# This requirements file has been automatically generated from `Pipfile` with
+# `pipenv-to-requirements`
+#
+#
+# This has been done to maintain backward compatibility with tools and services
+# that do not support `Pipfile` yet.
+#
+# Do NOT edit it directly, use `pipenv install [-d]` to modify `Pipfile` and
+# `Pipfile.lock` and then regenerate `requirements*.txt`.
+################################################################################
+
+-e git+https://github.com/mitmproxy/mitmproxy.git#egg=mitmproxy
+asn1crypto==0.24.0
+blinker==1.4
+brotlipy==0.7.0
+certifi==2018.4.16
+cffi==1.11.5
+click==6.7
+cryptography==2.2.2
+h11==0.7.0
+h2==3.0.1
+hpack==3.0.0
+hyperframe==5.1.0
+idna==2.6
+kaitaistruct==0.8
+ldap3==2.5
+passlib==1.7.1
+pbr==4.0.3
+pipenv-to-requirements==0.4.1
+pipenv==2018.5.18
+psutil==5.4.5
+pyasn1==0.4.2
+pycparser==2.18
+pyopenssl==17.5.0
+pyparsing==2.2.0
+pyperclip==1.6.0
+python-crontab==2.3.0
+python-dateutil==2.7.3
+pyyaml==3.12
+ruamel.yaml==0.15.37
+six==1.11.0
+sortedcontainers==1.5.10
+tornado==5.0.2
+urwid==2.0.1
+virtualenv-clone==0.3.0
+virtualenv==15.2.0
+wsproto==0.11.0
