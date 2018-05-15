@@ -103,3 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 /data/block_settings.json
+
+# snapcraft
+prime/
+stage/
+snap/
