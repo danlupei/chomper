@@ -1,0 +1,21 @@
+name: chomper
+version: git
+summary: Blocking distracting websites
+description: |
+  Chomper can be used to set up rules that restrict your internet activity,
+  so that you will not get distracted by certain websites and you can focus
+  on what is important.
+
+grade: devel
+confinement: devmode
+
+apps:
+  chomper:
+    command: bin/chomper
+
+parts:
+  chomper:
+    source: .        
+    plugin: python
+    python-version: python3
+    requirements: requirements.txt
